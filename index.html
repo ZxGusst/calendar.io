@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="left-bar">
+
+        <img src="Imagens/Group 1.svg" class="menu-hamb">
+        <h1>Menu</h1>
+        <div class="sidebar">
+
+            <ul class="menu">
+                <li class="menu-item" data-month="0">JAN</li>
+                <li class="menu-item" data-month="1">FEV</li>
+                <li class="menu-item" data-month="2">MAR</li>
+                <li class="menu-item" data-month="3">ABR</li>
+                <li class="menu-item" data-month="4">MAI</li>
+                <li class="menu-item" data-month="5">JUN</li>
+                <li class="menu-item" data-month="6">JUL</li>
+                <li class="menu-item" data-month="7">AGO</li>
+                <li class="menu-item" data-month="8">SET</li>
+                <li class="menu-item" data-month="9">OUT</li>
+                <li class="menu-item" data-month="10">NOV</li>
+                <li class="menu-item" data-month="11">DEZ</li>
+            </ul>
+        </div>
+
+        <img src="Imagens/Screenshot_5.png" class="logo">
+    </div>
+    <div class="container">
+
+        <div class="calendar">
+            <div class="header">
+                <button id="prevBtn" class="button1">&lt;</button>
+                <div class="header-mid">
+                    <div class="month">Junho</div>
+                    <div class="year">2023</div>
+                </div>
+
+                <button id="nextBtn" class="button2">&gt;</button>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Dom</th>
+                        <th>Seg</th>
+                        <th>Ter</th>
+                        <th>Qua</th>
+                        <th>Qui</th>
+                        <th>Sex</th>
+                        <th>Sáb</th>
+                    </tr>
+                </thead>
+                <tbody class="days">
+                    <!-- Dias do mês serão preenchidos aqui -->
+                </tbody>
+            </table>
+        </div>
+        <div class="footer-content">
+            <a href="notas.html"> <button class="notes-button">Notas</button> </a>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
